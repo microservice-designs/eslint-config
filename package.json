@@ -2,7 +2,7 @@
   "name": "@microservice/eslint-config",
   "version": "1.0.0",
   "type": "module",
-  "private": true,
+  "private": false,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/microservice-designs/eslint-config.git"
