@@ -1,5 +1,5 @@
 {
-  "name": "@microservice/eslint-config",
+  "name": "@microservice-designs/eslint-config",
   "version": "1.0.0",
   "type": "module",
   "private": false,
