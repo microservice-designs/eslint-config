@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "type": "module",
   "private": true,
-  "repository": "https://github.com/microservice-designs/eslint-config",
+  "repository": {
+    "type": "git",
+    "url":"https://github.com/microservice-designs/eslint-config"
+  },
   "description": "ESLint configuration for microservice projects",
   "maintainers": ["madhanraj"],
   "exports": {
@@ -14,7 +17,8 @@
     "./prettier": "./prettier.js"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@microservice-designs"
+    "registry": "https://npm.pkg.github.com/@microservice-designs",
+    "access": "public"
   },
   "author": "Madhanraj",
   "bugs": "https://github.com/microservice-designs/eslint-config/issues",
