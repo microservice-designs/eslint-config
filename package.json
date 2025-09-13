@@ -19,8 +19,7 @@
     "./prettier": "./prettier.js"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@microservice-designs",
-    "access": "public"
+    "registry": "https://npm.pkg.github.com/@microservice-designs"
   },
   "author": "Madhanraj",
   "bugs": "https://github.com/microservice-designs/eslint-config/issues",
