@@ -5,10 +5,12 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url":"https://github.com/microservice-designs/eslint-config"
+    "url": "git+https://github.com/microservice-designs/eslint-config.git"
   },
   "description": "ESLint configuration for microservice projects",
-  "maintainers": ["madhanraj"],
+  "maintainers": [
+    "madhanraj"
+  ],
   "exports": {
     "./base": "./base.js",
     "./next-js": "./next.js",
@@ -31,7 +33,7 @@
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-turbo": "^2.5.0",
-    "eslint-plugin-vitest":"^0.5.4",
+    "eslint-plugin-vitest": "^0.5.4",
     "globals": "^16.3.0",
     "typescript": "^5.9.2",
     "typescript-eslint": "^8.40.0"
